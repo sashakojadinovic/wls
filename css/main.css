@@ -21,10 +21,11 @@ p {
   line-height: 1.5rem;
 }
 .wrapper {
-  border-top: 10px solid #F6AD55;
+  border-top: 10px solid #0a3d62;
 }
 .wrapper header {
-  border-bottom: 1px solid #d7d7d7;
+  background-color: #f7f7f7;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   margin-bottom: 4rem;
   padding: 0.5rem 0;
 }
@@ -110,7 +111,7 @@ p {
 .section-title {
   margin: 3rem 0 1rem;
   padding: 0.5rem;
-  border-bottom: 1px solid #d7d7d7;
+  border-bottom: 1px solid #e1ebe5;
 }
 .dialogue-mix,
 .resume-description {
