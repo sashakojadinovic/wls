@@ -125,10 +125,10 @@ p {
   border-right: 10px solid #F6AD55;
 }
 .bubble.info {
-  background-color: #38a169;
+  background-color: #2b8153;
 }
 .bubble.info:before {
-  border-right: 10px solid #38a169;
+  border-right: 10px solid #2b8153;
 }
 .bubble::before {
   content: "";
