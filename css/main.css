@@ -121,7 +121,7 @@ li {
 .bubble {
   background: #0a3d62;
   border-radius: 15px;
-  padding: 10px 15px;
+  padding: 1rem;
   max-width: 70%;
   position: relative;
   font-size: 1rem;
@@ -193,6 +193,9 @@ li {
 }
 .footer p {
   text-align: center;
+}
+.svg-wrapper {
+  padding: 2rem 0.75rem;
 }
 #quiz-section {
   margin-top: 3rem;
