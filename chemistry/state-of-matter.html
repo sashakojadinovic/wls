@@ -14,8 +14,10 @@
     <div class="wrapper">
       <header>
         <div class="logo-container">
-  <a href="/"><img src="/images/site-assets/logo.svg" width="200" height="60" alt="Site logo"> </a>
+  <a href="/"><img src="/images/site-assets/logo.svg" width="200" height="60" alt="Site logo">
+  </a>
 </div>
+
       </header>
       <div class="container">
         <main>
@@ -121,11 +123,14 @@
 
         <div class="resume-description">
             <dl class="glossary">
-                <dt>Chemistry</dt>
-                <dd>A natural science that studies matter—what it’s made of, what it’s like, and how it changes.
+                <dt>A state of matter</dt>
+                <dd>form in which a substance exists — whether it is a solid (like ice), liquid (like water), or gas
+                    (like steam). <br>It depends on how the particles in the substance behave: how close they are, how
+                    freely they move, and how much energy they have.
                 </dd>
-                <dt>Matter</dt>
-                <dd>Anything that has mass and takes up space. Every object around us is made of matter.</dd>
+                <dt>Heat</dt>
+                <dd> is energy made by moving particles.
+                    When particles move faster, the substance feels hotter.</dd>
             </dl>
         </div>
     </section>
@@ -171,22 +176,25 @@
                 role="alert" aria-live="polite">
                 <p id="feedback" style="font-weight: bold;"></p>
                 <button class="btn btn-primary" id="review-link">Review the lesson</button>
+                <a href="/chemistry/changes-of-state-of-matter.html" class="btn btn-primary" id="next-lesson">Changes of
+                    State of Matter</a>
             </div>
         </div>
     </section>
     <script>
+        const successMessage = "Great job! You are ready for the next lesson.";
+        const failureMessage = "Looks like you could use a bit more practice.";
         const questions = [
             {
-                text: "What is chemistry mainly concerned with?",
-                answers: ["Emotions and human behavior", "Substance and the changes it undergoes", "The movement of planets", "Numbers and calculations"],
-                correct: 1,
+                text: "In which state of matter do particles move the fastest?",
+                answers: ["Gas", "Liquid", "Solid"],
+                correct: 0,
             },
             {
-                text: "Which of the following is NOT considered a substance?",
-                answers: ["Water", "Aluminum", "Plastic", "Love"],
-                correct: 3,
+                text: "Do substances take up more space when they are solid than when they are gas?",
+                answers: ["True", "False"],
+                correct: 1,
             }
-
         ];
     </script>
     <script src="/js/quiz.js"></script>
