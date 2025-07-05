@@ -11,11 +11,42 @@
   <body>
     <div class="wrapper">
       <header>
-        <div class="logo-container">
+        <div class="header-content">
+          <div class="logo-container">
   <a href="/"><img src="/images/site-assets/logo.svg" width="200" height="60" alt="Site logo">
   </a>
 </div>
+<div id="hamburger" class="hamburger" onclick="toggleMenu()">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+<nav id="nav">
+  <a href="/chemistry/what-is-chemistry.html">What is Chemistry?</a>
+  <a href="/chemistry/state-of-matter.html">State of Matter</a>
+  <a href="/chemistry/changes-of-state-of-matter.html">Changes of State of Matter</a>
 
+</nav>
+
+
+
+<script>
+  const nav = document.getElementById("nav");
+  const hamburger = document.getElementById("hamburger");
+  function toggleMenu() {
+    nav.classList.toggle("active");
+    hamburger.classList.toggle("active");
+  }
+
+
+  document.querySelectorAll("nav a").forEach(link => {
+    link.addEventListener("click", () => {
+      nav.classList.remove("active");
+      hamburger.classList.remove("active");
+    });
+  });
+</script>
+        </div>
       </header>
       <div class="container">
         <main>
