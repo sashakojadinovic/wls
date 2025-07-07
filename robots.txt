@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
-Disallow: /?q=
 
 Sitemap: https://welearnscience.com/sitemap.xml
