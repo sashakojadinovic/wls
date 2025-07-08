@@ -184,11 +184,16 @@ nav.active {
 }
 .wrapper header .header-content {
   max-width: 1200px;
-  margin: 10px auto 0;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 0.5rem;
+}
+@media (min-width: 768px) {
+  .wrapper header .header-content {
+    margin: 0.625rem auto 0;
+  }
 }
 .wrapper header .header-content .logo-container img {
   width: 150px;
@@ -201,7 +206,7 @@ nav.active {
 .container {
   max-width: 1200px;
   margin: 2rem auto 0;
-  padding: 15px 5px;
+  padding: 1rem 0.5rem;
 }
 @media (min-width: 768px) {
   .container {
