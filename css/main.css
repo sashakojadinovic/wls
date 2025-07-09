@@ -67,6 +67,7 @@ table tr td img {
   height: 19px;
   cursor: pointer;
   position: relative;
+  margin-right: 1rem;
   z-index: 3;
 }
 #hamburger span {
