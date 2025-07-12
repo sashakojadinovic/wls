@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WLS-WeLearnScience - Forsiden</title>
+    <meta name="description" content="Lær naturfag på en morsom måte – gjennom dialog, kule fakta og korte quizer. Tilpasset nysgjerrige elever i ny generasjon.">
+    
+      <link rel="alternate" hreflang="hr-HR" href="https://welearnscience.com/hr/">
+    
+    
+      <link rel="alternate" hreflang="en" href="https://welearnscience.com/">
+    
+    
+    
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="canonical" href="https://welearnscience.com/no/">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="header-content">
+          <div class="logo-container">
+  <a href="/no"><img src="/images/site-assets/logo.svg" width="200" height="60" alt="Site logo">
+  </a>
+</div>
+<div class="lang-and-nav">
+  <div class="languages">
+    <ul>
+      <li><a href="/">EN</a></li>
+      <li><a href="/hr/">HR</a></li>
+    </ul>
+  </div>
+<div id="hamburger" class="hamburger" onclick="toggleMenu()">
+  <div class="hamburger-active-area">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="nav">
+  <a href="/no/kjemi/hva-er-kjemi.html">Hva er kjemi?</a>
+  <a href="/no/kjemi/partikler-i-stoff.html">De ørsmå partiklene som bygger opp alt</a>
+  <a href="/no/kjemi/aggregattilstander.html">Aggregattilstander</a>
+  <a href="/no/kjemi/tilstandsendringer.html">Endringer i aggregattilstand</a>
+  <a href="/no/kjemi/fysiske-og-kjemiske-egenskaper.html">Fysiske og kjemiske egenskaper</a>
+</nav>
+
+</div>
+
+
+<script>
+  const nav = document.getElementById("nav");
+  const hamburger = document.getElementById("hamburger");
+  function toggleMenu() {
+    nav.classList.toggle("active");
+    hamburger.classList.toggle("active");
+  }
+
+
+  document.querySelectorAll("nav a").forEach(link => {
+    link.addEventListener("click", () => {
+      nav.classList.remove("active");
+      hamburger.classList.remove("active");
+    });
+  });
+</script>
+        </div>
+      </header>
+      <div class="container">
+        <main>
+          <svg style="display: none;" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="check-small" viewBox="0 0 960 960">
+        <path d="M400 646.67 244.67 491.33l46.66-46.66L400 553.33l268.67-268.66 46.66 46.66L400 646.67Z"
+            fill="currentColor" />
+    </symbol>
+</svg>
+
+<section class="homepage-intro">
+    <h1>WeLearnScience – Lær naturfag på en enklere måte</h1>
+
+    <p>
+        Velkommen til <strong>WeLearnScience</strong> – stedet der du kan lære om naturfag på en enkel og morsom måte.
+        Enten du er elev, lærer eller bare nysgjerrig,
+        skal vi gjøre <strong>kjemi</strong>, <strong>fysikk</strong> og <strong>biologi</strong> til fag du kommer til å elske.
+    </p>
+
+    <h2 class="section-title">Hva kan du finne her?</h2>
+    <div class="gray-square">
+        <ul class="done-list">
+            <li>
+                <svg class="icon" aria-hidden="true">
+                    <use href="#check-small"></use>
+                </svg>
+                Enkle og spennende <strong>naturfagsleksjoner</strong> laget som små dramatiske dialoger, med klare og presise oppsummeringer og konklusjoner
+            </li>
+            <li>
+                <svg class="icon" aria-hidden="true">
+                    <use href="#check-small"></use>
+                </svg>
+                Kul fakta fra naturvitenskapens verden og eksempler fra hverdagen
+            </li>
+            <li>
+                <svg class="icon" aria-hidden="true">
+                    <use href="#check-small"></use>
+                </svg>
+                <strong>Raske interaktive quizzer</strong> etter hvert tema
+            </li>
+            <li>
+                <svg class="icon" aria-hidden="true">
+                    <use href="#check-small"></use>
+                </svg>
+                Alt perfekt laget for bruk i klasserommet eller hjemme
+            </li>
+        </ul>
+    </div>
+
+    <p>
+        Vi tror at naturfag ikke trenger å være kjedelig.
+        Se selv hvor spennende og fint naturfag kan være, og derfor ...
+    </p>
+
+    <a class="btn btn-primary" href="/no/kjemi/hva-er-kjemi.html" class="start-button">Start med å lære kjemi</a>
+</section>
+
+        </main>
+      </div>
+      <footer class="footer">
+    <p>&copy; 2025 WLS - WeLearnScience</p>
+</footer>
+    </div>
+  </body>
+</html>
