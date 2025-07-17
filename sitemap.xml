@@ -51,14 +51,20 @@
   <url>
     <loc>https://welearnscience.com/chemistry/physical-and-chemical-changes.html</loc>
     <lastmod>2025-07-14T00:00:00+00:00</lastmod>
+     <xhtml:link rel="alternate" hreflang="hr-HR" href="https://welearnscience.com/hr/kemija/fizikalne-i-kemijske-promjene-tvari.html" />
+    <xhtml:link rel="alternate" hreflang="nb-NO" href="https://welearnscience.com/nb/kjemi/fysiske-og-kjemiske-forandringer.html" />
   </url>
    <url>
     <loc>https://welearnscience.com/chemistry/pure-substances.html</loc>
     <lastmod>2025-07-15T00:00:00+00:00</lastmod>
+     <xhtml:link rel="alternate" hreflang="hr-HR" href="https://welearnscience.com/hr/kemija/ciste-tvari.html" />
+    <xhtml:link rel="alternate" hreflang="nb-NO" href="https://welearnscience.com/nb/kjemi/rene-stoffer.html" />
   </url>
    <url>
     <loc>https://welearnscience.com/chemistry/mixtures.html</loc>
     <lastmod>2025-07-17T00:00:00+00:00</lastmod>
+     <xhtml:link rel="alternate" hreflang="hr-HR" href="https://welearnscience.com/hr/kemija/smjese.html" />
+    <xhtml:link rel="alternate" hreflang="nb-NO" href="https://welearnscience.com/nb/kjemi/blandinger.html" />
   </url>
 
 </urlset>
