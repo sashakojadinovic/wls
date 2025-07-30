@@ -268,7 +268,7 @@ nav.active {
 }
 @media (min-width: 768px) {
   .homepage-banner img {
-    width: 80%;
+    width: 100%;
   }
 }
 .container {
@@ -278,7 +278,7 @@ nav.active {
 }
 @media (min-width: 768px) {
   .container {
-    margin: 4rem auto 0;
+    margin: 3rem auto 0;
   }
 }
 /* .show-after-1 {
