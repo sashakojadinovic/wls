@@ -178,7 +178,7 @@ nav.active {
     justify-content: center;
   }
 }
-.slimple-link-light {
+.simple-link-light {
   color: #ffffff;
 }
 .inline-link {
@@ -255,6 +255,20 @@ nav.active {
 @media (min-width: 768px) {
   .wrapper header .header-content .logo-container img {
     width: 200px;
+  }
+}
+.homepage-banner {
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+}
+.homepage-banner img {
+  width: 100%;
+  height: auto;
+}
+@media (min-width: 768px) {
+  .homepage-banner img {
+    width: 80%;
   }
 }
 .container {
@@ -429,6 +443,15 @@ nav.active {
 .footer p {
   text-align: center;
   color: #ffffff;
+}
+.footer .page-attribution {
+  font-size: 0.75rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+.footer .page-attribution a {
+  color: #fff;
+  text-decoration: none;
 }
 .svg-wrapper {
   padding: 2rem 0.75rem;
