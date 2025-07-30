@@ -261,15 +261,11 @@ nav.active {
   width: 100%;
   display: inline-flex;
   justify-content: center;
+  margin: 1.5rem auto;
 }
 .homepage-banner img {
   width: 100%;
   height: auto;
-}
-@media (min-width: 768px) {
-  .homepage-banner img {
-    width: 100%;
-  }
 }
 .container {
   max-width: 1200px;
