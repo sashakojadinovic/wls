@@ -429,10 +429,13 @@ nav.active {
 .footer .footer-column .footer-col-title {
   margin-top: 0.1rem;
 }
-.footer .footer-column li {
+.footer .footer-column ul {
+  padding-left: 2rem;
+}
+.footer .footer-column ul li {
   list-style: none;
 }
-.footer .footer-column li a {
+.footer .footer-column ul li a {
   color: #ffffff;
   text-decoration: none;
 }
