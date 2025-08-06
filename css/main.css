@@ -178,6 +178,9 @@ nav.active {
     justify-content: center;
   }
 }
+.inline-flex-img {
+  margin-right: 30px;
+}
 .simple-link-light {
   color: #ffffff;
 }
